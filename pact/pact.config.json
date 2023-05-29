@@ -5,9 +5,9 @@
     "port": 1234
   },
   "pactBrokerConfig": {
-    "pactBrokerUrl": "https://test.pact.dius.com.au",
-    "pactBrokerUsername": "dXfltyFMgNOFZAxr8io9wJ37iUpY42M",
-    "pactBrokerPassword": "O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1"
+    "pactBrokerUrl": "http://localhost:9292/",
+    "pactBrokerUsername": "admin",
+    "pactBrokerPassword": "password"
   },
   "providerProxyPort": 8999
 }

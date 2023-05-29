@@ -3,5 +3,20 @@
     "id": 1,
     "text": "Start",
     "author": "Typing"
+  },
+  {
+    "id": 2,
+    "text": "Hakuna matata!",
+    "author": "Pumba"
+  },
+  {
+    "id": 3,
+    "text": "Some text 1685350273724",
+    "author": "Some author 1685350273724"
+  },
+  {
+    "id": 4,
+    "text": "Hakuna matata!",
+    "author": "Pumba"
   }
 ]

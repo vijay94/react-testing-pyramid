@@ -94,3 +94,25 @@
 6. getCurrentQuoteByLocation() - must return quote from store, if quote with id from location is exist
 7. getCurrentQuoteByLocation() - must return null, if quoteId from location is not exist or invalid
 8. getCurrentQuoteByLocation() - must return null, if quote with id from location is not exist
+
+Steps to run Unit tests:
+
+1. `npm install` - This will install all dependencies
+2. `npm run test` - This will run all unit tests in react app
+
+Steps to run integration tests:
+
+1. `npm start` - This will run the react app
+2. `cd api `
+3. `npm install` - This will install all dependencies
+4. `npm start` - This will run the api server
+5. `cd ..`
+6. `npm run e2e` - This will run the cypress tests
+
+Steps to run pact tests:
+
+1. `docker-compose up` - This will run the pact broker
+2. `npm run pact:publish` - This will publish the pact to the broker
+3. `cd api`
+4. `npm run proxy:pact` - This will run the pact proxy
+4. `npm run pact:provider` - This will verify the pact against the broker
